@@ -43,12 +43,19 @@ button:hover {
     margin-top: 20px;
 }
 
+#img-div {
+    display: flex;
+    flex-direction: row;
+}
+
 #sprite,  #sprite2{
     width: 100px;
     height: 100px;
     margin-left: auto;
     margin-right: auto;
+    display: none;
 }
+
 
 #types {
     display: flex;
